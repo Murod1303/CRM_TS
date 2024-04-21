@@ -16,7 +16,13 @@ function App() {
       <Dashboard />
       <div
         className="wrapper"
-        style={{ display: "flex", width: "100%", flexDirection: "column" }}
+        style={{
+          display: "flex",
+          width: "100%",
+          flexDirection: "column",
+          height: "100vh",
+          overflowY: "scroll",
+        }}
       >
         <Header />
         <Home />

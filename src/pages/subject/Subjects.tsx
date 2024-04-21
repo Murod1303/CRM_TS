@@ -1,4 +1,4 @@
-import TableSubject from "@/components/tableSubject/TableSubject";
+import TableSubject from "@/components/table/tableSubject/TableSubject";
 import {
   SubjectButton,
   SubjectForm,
